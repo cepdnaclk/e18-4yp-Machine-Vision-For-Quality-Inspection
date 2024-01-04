@@ -1,25 +1,25 @@
 {
     "team": [
         {
-            "name": "Team Member Name 1",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx",
+            "name": "Hariharan R.",
+            "email": "e18128@eng.pdn.ac.lk",
+            "eNumber": "E/18/128",
             "github_profile":"#",
             "linkedin_profile":"#",
             "website": "#"
         },
         {
-            "name": "Team Member Name 2",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx",
+            "name": "Karan R.",
+            "email": "e18168@eng.pdn.ac.lk",
+            "eNumber": "E/18/168",
             "github_profile":"#",
             "linkedin_profile":"#",
             "website": "#"
         },
         {
-            "name": "Team Member Name 3",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx",
+            "name": "Vilakshan V.",
+            "email": "e18373@eng.pdn.ac.lk",
+            "eNumber": "E/18/373",
             "github_profile":"#",
             "linkedin_profile":"#",
             "website": "#"
@@ -27,19 +27,26 @@
     ],
     "supervisors": [
         {
-            "name": "Dr. Supervisor 1",
-            "email": "email@eng.pdn.ac.lk",
+            "name": "Dr. Isuru Nawinne",
+            "email": "isurunawinne@eng.pdn.ac.lk",
             "linkedin_profile":"#",
             "researchgate_profile":"#",
             "website": "#"
         },
         {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk",
+            "name": "Prof. Roshan G. Ragel",
+            "email": "roshanr@eng.pdn.ac.lk",
+            "linkedin_profile":"#",
+            "researchgate_profile":"#",
+            "website": "#"
+        },
+          {
+            "name": "Keshara Weerasinghe",
+            "email": "kesharaw@eng.pdn.ac.lk",
             "linkedin_profile":"#",
             "researchgate_profile":"#",
             "website": "#"
         }
     ],
-    "tags": ["Web", "Embedded Systems"]
+    "tags": ["AI", "Machine Vision for Quality Inspection"]
 }

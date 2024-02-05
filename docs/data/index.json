@@ -1,52 +1,30 @@
 {
     "team": [
         {
-            "name": "Hariharan R.",
+            "name": "Hariharan Raveenthiran",
             "email": "e18128@eng.pdn.ac.lk",
-            "eNumber": "E/18/128",
-            "github_profile":"#",
-            "linkedin_profile":"#",
-            "website": "#"
+            "eNumber": "E/18/168"
         },
         {
-            "name": "Karan R.",
+            "name": "Karan Rasathurai",
             "email": "e18168@eng.pdn.ac.lk",
-            "eNumber": "E/18/168",
-            "github_profile":"#",
-            "linkedin_profile":"#",
-            "website": "#"
+            "eNumber": "E/18/168"
         },
         {
-            "name": "Vilakshan V.",
+            "name": "Vilakshan Vinasirajan",
             "email": "e18373@eng.pdn.ac.lk",
-            "eNumber": "E/18/373",
-            "github_profile":"#",
-            "linkedin_profile":"#",
-            "website": "#"
+            "eNumber": "E/18/373"
         }
     ],
     "supervisors": [
         {
-            "name": "Dr. Isuru Nawinne",
-            "email": "isurunawinne@eng.pdn.ac.lk",
-            "linkedin_profile":"#",
-            "researchgate_profile":"#",
-            "website": "#"
+            "name": "Dr. Asitha Bandaranayake",
+            "email": "asithab@eng.pdn.ac.lk"
         },
         {
-            "name": "Prof. Roshan G. Ragel",
-            "email": "roshanr@eng.pdn.ac.lk",
-            "linkedin_profile":"#",
-            "researchgate_profile":"#",
-            "website": "#"
-        },
-          {
-            "name": "Keshara Weerasinghe",
-            "email": "kesharaw@eng.pdn.ac.lk",
-            "linkedin_profile":"#",
-            "researchgate_profile":"#",
-            "website": "#"
+            "name": "Mrs. Nadeesha Adikari",
+            "email": "nadeeshaa@eng.pdn.ac.lk"
         }
     ],
-    "tags": ["AI", "Machine Vision for Quality Inspection"]
+    "tags": ["Unsupervised Learning", "Green House Automation"]
 }

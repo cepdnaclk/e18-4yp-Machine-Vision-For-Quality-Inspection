@@ -8,7 +8,7 @@
     <title>Green House 2.0</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-
+    <link rel="stylesheet" href="topContainer.css">
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -38,11 +38,11 @@
 <body>
 
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent " style="background-color: burlywood">
         <div class="container d-flex align-items-center">
 
             <h1 class="logo me-auto">
-                <a href="index.html " style="color: green;">Green House 2.0</a>
+                <a href="index.html " style="color: brown;">Quality inspection</a>
             </h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -72,14 +72,12 @@
         <div class="container d-flex h-100">
             <div class="row justify-content-center align-self-center" data-aos="fade-up">
                 <div class="col-lg-6 intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
-                    <h2>Welcome <br>To Our <span style="color: green;">Green House 2.0</span></h2>
-                    <div>
-                        <a href="#about" class="btn-get-started scrollto ">Get Started</a>
-                    </div>
+                    <h2 style="color: brown;">Machine  Vision For Quality Inspection </h2>
+                   
                 </div>
 
                 <div class="col-lg-6 intro-img order-lg-last order-first " data-aos="zoom-out " data-aos-delay="200 ">
-                    <img src="assets/img/intro-img.svg " alt=" " class="img-fluid ">
+                    <img src="assets/img/24143-removebg-preview.png " alt=" " class="img-fluid ">
                 </div>
             </div>
 
@@ -91,85 +89,66 @@
 
 
         <!-- ======= About Section ======= -->
-        <section id="about " class="about ">
-
-            <div class="container " data-aos="fade-up ">
-                <div class="row ">
-                    <img src="assets/img/ji.jpg" style="width: 500px; height: 500px;" alt="Responsive image">
-
-
-                    <div class="col-lg-7 col-md-6 ">
-                        <div class="about-content " data-aos="fade-left " data-aos-delay="100 ">
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+                <div class="topContainer">
+                    
+                </div>
+                
+                <div class="row">
+                  
+                    <div class="col-lg-7 col-md-6 " >
+                        <div class="about-content" data-aos="fade-left" data-aos-delay="100">
                             <h2>Problem Domain</h2>
-                            <p> Greenhouses are designed to provide a controlled environment for plant growth. However, external factors such as temperature fluctuations can make it difficult to maintain these conditions.</p>
-
+                            <p>In the context of the automated toy inspection system, the primary objective is to enhance the efficiency and accuracy of the assembly line by employing computer vision techniques to inspect and classify toys. The system focuses on the inspection of toy heads, particularly targeting the eyes, with the goal of detecting and categorizing defects in real-time.</p>
+                            <h2>Components and Functionalities:</h2>
                             <ul>
-                                <li><i class="bi bi-check-circle "></i> Reduced plant growth
+                                <li><strong>Assembly Line Integration:</strong> Toys are placed on the assembly line for inspection. The depth camera, positioned above the line, captures images of the toys as they pass through.</li>
+                                <li><strong>Segmentation of Toys:</strong> Utilizing computer vision algorithms, the system performs segmentation to identify and isolate individual toys in the captured images.</li>
+                                <li><strong>Classification of Toy Types:</strong> Following segmentation, the system classifies the type of each toy head. Initially, the focus is on toy heads, and future expansions may include other body parts.</li>
+                                <li><strong>Defect Detection in Eyes:</strong> Specialized attention is given to the eyes of each toy head for defect detection.
+                                    <ul>
+                                        <li><strong>Paint Area Analysis:</strong> The system analyzes the paint distribution in the eyes, distinguishing between the pupil and iris regions.</li>
+                                        <li><strong>Alignment Check:</strong> Detects misalignments in the positioning of the eyes.</li>
+                                        <li><strong>Gaze Direction Analysis:</strong> Determines the direction in which each eye is looking.</li>
+                                    </ul>
                                 </li>
-                                <li><i class="bi bi-check-circle "></i> Increased risk of disease
-                                </li>
-                                <li><i class="bi bi-check-circle "></i> Lower yields
-                                </li>
-                                <li><i class="bi bi-check-circle "></i>Higher costs
-                                </li>
+                                <li><strong>Real-time Defect Visualization:</strong> Detected defects are highlighted and visualized in real-time, providing immediate feedback to the quality control team. Visualization includes graphical overlays indicating areas of concern, misalignments, or deviations from the expected characteristics.</li>
+                                <li><strong>Adaptability to Changing Requirements:</strong> The system is designed with flexibility to accommodate changes in the toy production line or additional inspection criteria. Updates to the defect detection algorithms and classification models can be seamlessly integrated.</li>
+                                <li><strong>Integration with Production Management Systems:</strong> Inspection results, including defect details and classified toy types, can be integrated into broader production management systems. Reports and analytics may be generated for performance monitoring and process optimization.</li>
+                                <li><strong>Continuous Learning:</strong> The system may incorporate machine learning techniques for continuous improvement. Over time, the model learns from new data, improving its ability to accurately classify toys and detect defects.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-
+            
         </section>
+        
         <!-- End About Section -->
 
-        <div class="container" data-aos="fade-up">
-            <div class="row gy-4 mt-5 d-flex flex-row-reverse">
-
-                <div class="col-lg-6 ps-lg-5">
-                    <h3 class="d-flex justify-content-lg-end">Our Solution</h3>
+       
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-6">
+                <div>
                     <hr>
-                    <img src="assets/img/k.png" class="img-fluid rounded-4 mb-4" alt="">
+                    <div class="imageContainer">
+                        <img src="assets/img/1.png" class="img-fluid rounded-4 mb-4" alt="">
 
-                </div>
-
-                <div class="col-lg-6 pt-lg-5">
-                    <div class="content ps-0 pe-lg-0">
-                        <p class="fst-italic"></p>
-
-                        <h4>
-                            Path
-                        </h4>
-
-                        <ul>
-                            <li><i class="bi bi-check-circle "></i>Collect and preprocess Data and analyze
-                            </li>
-                            <li><i class="bi bi-check-circle "></i>Build, and Train ML models
-                            </li>
-                            <li><i class="bi bi-check-circle "></i> Integrate controllers with our system using MQTT
-                            </li>
-                            <li><i class="bi bi-check-circle "></i>Create and deploy the Dashboard
-                            </li>
-                        </ul>
-
-                        <h5>
-                            Features that impact the model
-                        </h5>
-
-                        <ul>
-                            <li><i class="bi bi-check-circle "></i>Temperature
-                            </li>
-                            <li><i class="bi bi-check-circle "></i>Humidity
-                            </li>
-                            <li><i class="bi bi-check-circle "></i> Wind speed
-
-                            </li>
-                            <li><i class="bi bi-check-circle "></i>Intensity of light
-                            </li>
-                            <li><i class="bi bi-check-circle "></i>Atmospheric Pressure
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-6">
+                <div>
+                    <hr>
+                    <div class="imageContainer">
+                        <img src="assets/img/2.png" class="img-fluid rounded-4 mb-4" alt="">
+
+                    </div>                </div>
+            </div>
+        </div>
+        
+
         </div>
         </section>
 
@@ -178,102 +157,6 @@
 
 
 
-        <!-- End Features Section -->
-
-        <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio " class="portfolio section-bg ">
-            <div class="container " data-aos="fade-up ">
-
-                <header class="section-header ">
-                    <h3 class="section-title ">Photos of Real Green House</h3>
-                </header>
-
-
-
-                <div class="row portfolio-container " data-aos="fade-up " data-aos-delay="200 ">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/g1.jpeg " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4><a href="portfolio-details.html ">Giant Fan</a></h4>
-                                <p>-----------------------------------------------------</p>
-                                <div>
-                                    <a href="assets/img/portfolio/app1.jpg " data-gallery="portfolioGallery " title="App 1 " class="link-preview portfolio-lightbox "><i class="bi bi-plus "></i></a>
-                                    <a href="portfolio-details.html " class="link-details " title="More Details "><i class="bi bi-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web " data-wow-delay="0.1s ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/g2.jpeg " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4><a href="portfolio-details.html ">Green House</a></h4>
-                                <p>-----------------------------------------------------</p>
-                                <div>
-                                    <a href="assets/img/g3.jpeg " class="link-preview portfolio-lightbox " data-gallery="portfolioGallery " title="Web 3 "><i class="bi bi-plus "></i></a>
-                                    <a href="portfolio-details.html " class="link-details " title="More Details "><i class="bi bi-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app " data-wow-delay="0.2s ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/g4.jpeg " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4><a href="portfolio-details.html ">Sensor setup</a></h4>
-                                <p>-----------------------------------------------------</p>
-                                <div>
-                                    <a href="assets/img/portfolio/app2.jpg " class="link-preview portfolio-lightbox " data-gallery="portfolioGallery " title="App 2 "><i class="bi bi-plus "></i></a>
-                                    <a href="portfolio-details.html " class="link-details " title="More Details "><i class="bi bi-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/g5.jpeg " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4><a href="portfolio-details.html ">3 Level of Sensors</a></h4>
-                                <p>-----------------------------------------------------</p>
-                                <div>
-                                    <a href="assets/img/portfolio/card2.jpg " class="link-preview portfolio-lightbox " data-gallery="portfolioGallery " title="Card 2 "><i class="bi bi-plus "></i></a>
-                                    <a href="portfolio-details.html " class="link-details " title="More Details "><i class="bi bi-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web " data-wow-delay="0.1s ">
-                        <div class="portfolio-wrap ">
-                            <img src="assets/img/g6.jpeg " class="img-fluid " alt=" ">
-                            <div class="portfolio-info ">
-                                <h4><a href="portfolio-details.html ">Mist</a></h4>
-                                <p>-----------------------------------------------------</p>
-                                <div>
-                                    <a href="assets/img/portfolio/web2.jpg " class="link-preview portfolio-lightbox " data-gallery="portfolioGallery " title="Web 2 "><i class="bi bi-plus "></i></a>
-                                    <a href="portfolio-details.html " class="link-details " title="More Details "><i class="bi bi-link "></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-
-
-
-
-
-                </div>
-
-            </div>
-        </section>
-        <!-- End Portfolio Section -->
 
 
 
@@ -289,6 +172,51 @@
         </div>
         </section>
         <!-- End Testimonials Section -->
+
+         <!-- ======= F.A.Q Section ======= -->
+         <section id="faq" class="faq">
+            <div class="container" data-aos="fade-up">
+                <header class="section-header">
+                    <h3>Expected Outcomes</h3>
+                  
+                </header>
+
+                <ul class="faq-list" data-aso="fade-up" data-aos-delay="100">
+
+                    <li>
+                        <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Enhanced efficiency in the toy assembly line through automated inspection. <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Improved accuracy in defect detection, reducing the likelihood of faulty products reaching consumers. <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Real-time feedback on defects, facilitating prompt corrective actions. <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+                        <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+
+                            </p>
+                        </div>
+                    </li>
+
+             
+
+
+
+                </ul>
+
+            </div>
+        </section>
 
         <!-- ======= Team Section ======= -->
         <section id="team " class="team ">
@@ -349,57 +277,7 @@
                     <!-- End Team Section -->
 
 
-                    <!-- ======= F.A.Q Section ======= -->
-                    <section id="faq" class="faq">
-                        <div class="container" data-aos="fade-up">
-                            <header class="section-header">
-                                <h3>Extendability</h3>
-                                <p>The Plan to extend our project</p>
-                            </header>
-
-                            <ul class="faq-list" data-aso="fade-up" data-aos-delay="100">
-
-                                <li>
-                                    <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Can be used other greenhouse setups historical data. <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                                    <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                                        <p>
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Reinforcement learning <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                                    <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                                        <p>
-
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Build Digital twin to check the practicality for a long periodt pellentesque habitant morbi? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                                    <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                                        <p>
-
-                                        </p>
-                                    </div>
-                                </li>
-
-                                <li>
-                                    <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Modular design so that new developer can use the existing components easily.<i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                                    <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                                        <p>
-
-                                        </p>
-                                    </div>
-                                </li>
-
-
-
-                            </ul>
-
-                        </div>
-                    </section>
+                   
                     <!-- End F.A.Q Section -->
 
 

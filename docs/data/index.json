@@ -24,11 +24,15 @@
         {
             "name": "Prof. Roshan Ragel",
             "email": "roshanr@eng.pdn.ac.lk"
-        }
-         {
+        },
+        {
             "name": "Keshara Weerasinghe",
             "email": "e15383@eng.pdn.ac.lk"
         }
     ],
-    "tags": ["FYP", "machine vision","Quality Inspection"]
+    "tags": [
+        "FYP",
+        "machine vision",
+        "Quality Inspection"
+    ]
 }

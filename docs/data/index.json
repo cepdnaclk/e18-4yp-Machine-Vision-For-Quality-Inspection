@@ -3,7 +3,7 @@
         {
             "name": "Hariharan Raveenthiran",
             "email": "e18128@eng.pdn.ac.lk",
-            "eNumber": "E/18/168"
+            "eNumber": "E/18/128"
         },
         {
             "name": "Karan Rasathurai",
@@ -18,13 +18,21 @@
     ],
     "supervisors": [
         {
-            "name": "Dr. Asitha Bandaranayake",
-            "email": "asithab@eng.pdn.ac.lk"
+            "name": "Dr. Isuru Nawinne",
+            "email": "isurunawinne@eng.pdn.ac.lk"
         },
         {
-            "name": "Mrs. Nadeesha Adikari",
-            "email": "nadeeshaa@eng.pdn.ac.lk"
+            "name": "Prof. Roshan Ragel",
+            "email": "roshanr@eng.pdn.ac.lk"
+        },
+        {
+            "name": "Keshara Weerasinghe",
+            "email": "e15383@eng.pdn.ac.lk"
         }
     ],
-    "tags": ["Unsupervised Learning", "Green House Automation"]
+    "tags": [
+        "FYP",
+        "machine vision",
+        "Quality Inspection"
+    ]
 }

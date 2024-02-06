@@ -12,9 +12,9 @@ This project pioneers a machine vision solution for automated manufacturing qual
 
 
 ## Team Members
-1. E/18/128 Hariharan R. [[Website](http://www.ce.pdn.ac.lk/e18-batch/), [Email](mailto:e18128@eng.pdn.ac.lk)]
-2. E/18/168 Karan R. [[Website](http://www.ce.pdn.ac.lk/e18-batch/), [Email](mailto:e18168@eng.pdn.ac.lk)]
-3. E/18/373 Vilakshan V. [[Website](http://www.ce.pdn.ac.lk/e18-batch/), [Email](mailto:e18373@eng.pdn.ac.lk)]
+1. E/18/128 Hariharan R.  [[Website](http://www.ce.pdn.ac.lk/e18-batch/), [Email](mailto:e18128@eng.pdn.ac.lk)]
+2. E/18/168 Karan R.  [[Website](http://www.ce.pdn.ac.lk/e18-batch/), [Email](mailto:e18168@eng.pdn.ac.lk)]
+3. E/18/373 Vilakshan V.   [[Website](http://www.ce.pdn.ac.lk/e18-batch/), [Email](mailto:e18373@eng.pdn.ac.lk)]
 
 
 ## Supervisors
